@@ -9,3 +9,6 @@
 .card-footer {
   border-top: none;
 }
+.container {
+  width: 300px;
+}
