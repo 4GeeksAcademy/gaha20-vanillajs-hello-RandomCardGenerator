@@ -1,1 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  height: 25em;
+}
+.card-header {
+  border-bottom: none;
+}
+.card-footer {
+  border-top: none;
+}
