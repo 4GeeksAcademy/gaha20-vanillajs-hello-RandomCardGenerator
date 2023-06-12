@@ -26,10 +26,10 @@ window.onload = function() {
 
 function randomCard() {
   let cards = [
-    "<p style='color:red'>♦</p>",
-    "<p style='color:red'>♥</p>",
-    "<p>♠</p>",
-    "<p>♣</p>"
+    "<p class='card-diamond'>♦</p>",
+    "<p class='card-heart'>♥</p>",
+    "<p class='card-spade'>♠</p>",
+    "<p class='card-clue'>♣</p>"
   ];
   let cardsIndex = Math.floor(Math.random() * cards.length);
   return cards[cardsIndex];

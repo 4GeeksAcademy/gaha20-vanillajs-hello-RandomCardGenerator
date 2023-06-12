@@ -19,3 +19,15 @@
 .card-number {
   font-size: 7em;
 }
+.card-spade {
+  color: black;
+}
+.card-clue {
+  color: n black;
+}
+.card-heart {
+  color: red;
+}
+.card-diamond {
+  color: red;
+}
