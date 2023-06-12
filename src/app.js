@@ -68,15 +68,17 @@ numberElement.innerHTML = cardNumber;
 
 // Button
 
-const updateButton = document.querySelector("#cardButton");
+const updateButton = document.querySelector(".btn");
 
 const handleClick = event => {
+  const cardType2 = `${randomCard()}`;
+  const cardNumber2 = `${randomNumber()}`;
   const updateNumber = document.querySelector(".card-number");
-  updateNumber.innerHTML = cardNumber;
+  updateNumber.innerHTML = cardNumber2;
   const updateType = document.querySelector(".card-type");
-  updateType.innerHTML = cardType;
+  updateType.innerHTML = cardType2;
   const updateType2 = document.querySelector(".card-type2");
-  updateType2.innerHTML = cardType;
+  updateType2.innerHTML = cardType2;
 };
 
 updateButton.addEventListener("click", handleClick);
