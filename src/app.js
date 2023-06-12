@@ -15,12 +15,13 @@ window.onload = function() {
 
 /*function randomCard() {
   let cards = [
-    "./../img/clue.png",
-    "./../img/heart.png",
-    "./../img/spades.png",
-    "./../img/diamond.png"
+    "<img src='src/assets/img/clue.png' />",
+    "<img src='src/assets/img/heart.png' />",
+    "<img src='src/assets/img/spades.png' />",
+    "<img src='src/assets/img/diamond.png' />"
   ];
-  return cards[Math.floor(Math.random() * cards.length)];
+  let cardsIndex = Math.floor(Math.random() * cards.length);
+  return cards[cardsIndex];
 }*/
 
 function randomCard() {
