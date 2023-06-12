@@ -65,3 +65,16 @@ type2Element.innerHTML = cardType;
 
 const numberElement = document.querySelector(".card-number");
 numberElement.innerHTML = cardNumber;
+
+const updateButton = document.querySelector("#cardButton");
+
+const handleClick = event => {
+  const updateNumber = document.querySelector(".card-number");
+  updateNumber.innerHTML = cardNumber;
+  const updateType = document.querySelector(".card-type");
+  updateType.innerHTML = cardType;
+  const updateType2 = document.querySelector(".card-type2");
+  updateType2.innerHTML = cardType;
+};
+
+updateButton.addEventListener("click", handleClick);
