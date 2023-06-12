@@ -84,11 +84,15 @@ const handleClick = event => {
 
 updateButton.addEventListener("click", handleClick);
 
+// auto refresh
+
 setTimeout(() => {
   document.location.reload();
 }, 10000);
 
 let timeLeft = 10;
+
+// timer
 
 function countdown() {
   timeLeft--;
