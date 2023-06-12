@@ -5,10 +5,16 @@
 }
 .card-header {
   border-bottom: none;
+  font-size: 3em;
 }
 .card-footer {
   border-top: none;
+  font-size: 3em;
+  transform: rotate(180deg);
 }
 .container {
   width: 300px;
+}
+.card-title {
+  font-size: 5em;
 }
