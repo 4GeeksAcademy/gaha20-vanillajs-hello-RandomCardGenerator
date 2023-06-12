@@ -8,7 +8,6 @@ import "./assets/img/clue.png";
 import "./assets/img/heart.png";
 import "./assets/img/spades.png";
 import "./assets/img/diamond.png";
-import { read } from "@popperjs/core";
 
 window.onload = function() {
   //write your code here

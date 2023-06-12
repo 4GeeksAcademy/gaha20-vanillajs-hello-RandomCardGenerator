@@ -2,19 +2,20 @@
 
 .card {
   height: 25em;
+  border-radius: 5%;
 }
 .card-header {
   border-bottom: none;
-  font-size: 3em;
+  font-size: 4em;
 }
 .card-footer {
   border-top: none;
-  font-size: 3em;
+  font-size: 4em;
   transform: rotate(180deg);
 }
 .container {
   width: 300px;
 }
 .card-number {
-  font-size: 5em;
+  font-size: 7em;
 }
