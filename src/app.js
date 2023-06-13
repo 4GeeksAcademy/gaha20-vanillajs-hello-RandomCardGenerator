@@ -69,8 +69,6 @@ numberElement.innerHTML = cardNumber;
 
 // Button
 
-const updateButton = document.querySelector(".btn");
-
 const handleClick = event => {
   const cardType2 = `${randomCard()}`;
   const cardNumber2 = `${randomNumber()}`;
@@ -80,8 +78,9 @@ const handleClick = event => {
   updateType.innerHTML = cardType2;
   const updateType2 = document.querySelector(".card-type2");
   updateType2.innerHTML = cardType2;
+  console.log(handleClick);
 };
-
+const updateButton = document.querySelector(".update");
 updateButton.addEventListener("click", handleClick);
 
 // auto refresh
@@ -89,7 +88,6 @@ updateButton.addEventListener("click", handleClick);
 setTimeout(() => {
   document.location.reload();
 }, 10000);
-
 let timeLeft = 10;
 
 // timer
@@ -101,5 +99,4 @@ function countdown() {
     setTimeout(countdown, 1000);
   }
 }
-
 setTimeout(countdown, 1000);
